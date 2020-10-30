@@ -1,0 +1,24 @@
+{
+  "name": "Parcial2_DAP",
+  "version": "1.0.0",
+  "description": "Parcial 2 Desarrollo de Aplicaciones Web",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrog1997/Parcial2_DAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrog1997/Parcial2_DAP/issues"
+  },
+  "homepage": "https://github.com/pedrog1997/Parcial2_DAP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

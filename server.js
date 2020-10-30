@@ -11,6 +11,24 @@ app.get("/", function(req, res) {
     res.send("You are on the homepage");
 });
 
+app.post("/post", function(req, res) {
+    var userObj = req.body;
+  
+    res.json("Welcome " + userObj.user);
+});
+
+app.delete("/delete", function(req, res) {
+    res.json({
+        delete: true
+    });
+});
+
+app.put("/put/:id", function(req, res) {
+    var id = req.params.id;
+
+    res.json("Task " + id + " has been updated.");
+});
+
 
 
 app.listen(PORT, function() {
